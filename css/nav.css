@@ -1,0 +1,129 @@
+.btn{
+	position: absolute;
+	width: 20px;
+	height:60px;
+	background-color: #7cbbe7;
+	top:50%;
+	left:80px;
+	margin-top: -30px;
+	color: #fff;
+	text-align: center;
+	font-size: 26px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.btn a{
+	display: block;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	height:100%;
+}
+
+.btn a i{
+	margin-top: 15px;
+}
+
+.nav{
+	background-color: #7cbbe7;
+	width: 85px;
+	float: left;
+	height:100%;
+	color: #fff;
+	position: relative;
+	font-size: 12px;
+}
+
+.nav .logo{
+	border-bottom: 1px solid #588abb;
+}
+
+.nav .logo img{
+	width:60px;
+	height:60px;
+	display: block;
+	margin:0px auto;
+	padding:10px 0;
+	-moz-border-radius: 50%;      /* Gecko browsers */
+    -webkit-border-radius: 50%;   /* Webkit browsers */
+    border-radius: 50%;
+}
+
+.nav a{
+	color: #fff;
+}
+
+.nav > ul{
+	padding-top: 10px;
+}
+
+.nav > ul li{
+	padding: 10px 0;
+}
+
+.nav > ul li a{
+	display: block;
+	text-align: center;
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+}
+
+.nav ul li a:hover,.nav ul li a.active{
+	color: #f11449;
+}
+
+.nav ul li a p{
+	padding-top: 8px;
+}
+
+.nav > ul li a p i{
+	margin-left: 5px;
+}
+
+.nav .nav-bottom{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	border-top: 1px solid #588abb;
+}
+
+.nav .nav-bottom .warn a{
+	float: left;
+	width: 50%;
+	text-align: center;
+	padding:10px 0;
+}
+
+.nav .nav-bottom .warn a:first-child{
+	border-right: 1px solid #588abb;
+}
+
+.nav li ul{
+	padding-top: 0;
+	display: none;
+	margin-top: 8px;
+	border-top:1px dashed rgba(255,255,255,.3);
+	border-bottom:1px dashed rgba(255,255,255,.3);
+}
+
+.nav li ul li{
+	padding: 0;
+}
+
+.nav li ul li a{
+	color: #fff;
+	display: block;
+	text-align: center;
+	padding:5px 0;
+	background:url(../images/disc.png) no-repeat; 
+	background-position: 4px 7px;
+}
+
+.nav li ul li a:hover{
+	background:url(../images/disc2.png) no-repeat;
+	background-position: 4px 7px;
+}

@@ -1,0 +1,237 @@
+body{
+	font-family: '微软雅黑';
+	overflow-x: hidden;
+	height:0;
+}
+
+#container{
+	z-index: -1;
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+
+.blank{
+	height:30px;
+	width: 100%;
+	position: absolute;
+	background-color: #296390;
+}
+
+.top{
+	top: 0;
+}
+
+.bottom{
+	bottom: 0;
+}
+
+.BMap_stdMpCtrl{
+	left:100px!important;
+	top:50px!important;
+}
+
+.BMap_scaleCtrl{
+	display: none!important;
+}
+
+.frame{
+	color: #fff;
+	line-height: 25px;
+}
+
+.frame span{
+	margin-left: 5px;
+}
+
+.frame tr td:first-child span{
+	margin-right: 20px;
+}
+
+p.name{
+	color: #000;
+	font-size: 16px;
+	padding-top: 5px;
+}
+
+.detail{
+	background-color: #2394be;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	width: 400px;
+	position: absolute;
+	right:-400px;
+	color: #fff;
+	font-size: 14px;
+	padding-bottom: 20px;
+	height:520px;
+	top: 71px;
+}
+
+.detail > p{
+	font-size: 16px;
+	text-align: center;
+	padding-bottom: 18px;
+}
+
+.detail > div{
+	padding: 0 30px;
+}
+
+.detail-box{
+	background-color: #65b4d2;
+	border-radius: 10px;
+	width: 100%;
+    overflow: hidden;
+}
+
+.detail-box .a-box a{
+	width: 50%;
+	float: left;
+	text-align: center;
+	color: #fff;
+	line-height: 40px;
+	background-color: #8bbed3;
+}
+
+.detail-box .a-box a.active{
+	background-color: #65b4d2;
+}
+
+.detail-box .a-box a:first-child{
+	border-top-left-radius:10px;
+	border-right: 1px solid #8bbed3;
+}
+
+.detail-box .a-box a:last-child{
+	border-top-right-radius: 10px;
+}
+
+.detail-box .table{
+	width: 200%;
+	overflow-x: hidden;
+	height: 410px;
+}
+
+.detail-box .table > div{
+	float: left;
+	width: 50%;
+}
+
+.detail-box .table > div table{
+	width: 100%;
+	line-height: 35px;
+	border-radius: 10px;
+}
+
+.detail-box .table > div table tr{
+	border-bottom: 1px solid #8bbed3;
+}
+
+.detail-box .table > div table tr:first-child{
+	text-align: center;
+}
+
+.detail-box .table > div table tr:first-child td{
+	padding-left: 0;
+}
+
+.detail-box .table > div table tr:first-child span{
+	color: #826ab6;
+}
+
+.detail-box .table > div table tr:last-child{
+	border:0;
+}
+
+.detail-box .table > div table tr td{
+	width: 50%;
+	padding-left: 20px;
+}
+
+.detail-box .table > div table tr td:first-child{
+	border-right: 1px solid #8bbed3;
+	box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+
+.detail-box .table > div ul{
+	padding:15px 20px;
+	overflow-y: auto;
+}
+
+.detail-box .table > div ul li{
+	line-height: 26px;
+}
+
+.detail-box .table > div ul li span{
+	float: right;
+	font-size: 12px;
+}
+
+#close i{
+	color: #fff;
+	font-weight: normal;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+::-webkit-scrollbar-thumb{  
+   background-color:#8bbed3;  
+   height:50px;  
+   outline-offset:-2px;  
+   -webkit-border-radius:4px;
+}  
+ 
+/*---滚动条大小--*/  
+::-webkit-scrollbar{  
+   width:8px;  
+   height:8px;  
+   -webkit-border-radius:4px; 
+}  
+ 
+/*---滚动框背景样式--*/  
+::-webkit-scrollbar-track-piece{  
+   background-color:#65b4d2;  
+   -webkit-border-radius:4px;  
+}
+
+body {
+　scrollbar-arrow-color: #65b4d2!important;  /*图6,三角箭头的颜色*/
+scrollbar-face-color: #8bbed3;  /*图5,立体滚动条的颜色*/
+scrollbar-3dlight: #65b4d2;  /*图1,立体滚动条亮边的颜色*/
+scrollbar-highlight-color: #65b4d2;  /*图2,滚动条空白部分的颜色*/
+scrollbar-shadow-color: #65b4d2;  /*图3,立体滚动条阴影的颜色*/
+scrollbar-darkshadow-color: #65b4d2;  /*图4,立体滚动条强阴影的颜色*/
+scrollbar-track-color: #65b4d2;  /*图7,立体滚动条背景颜色*/
+
+scrollbar-base-color:#f8f8f8;  /*滚动条的基本颜色*/
+}
+
+@-moz-document url-prefix(http://),url-prefix(https://) {   
+/* 滚动条颜色 */  
+scrollbar {   
+   -moz-appearance: none !important;   
+   background: #abcdef; !important;   
+}   
+/* 滚动条按钮颜色 */  
+thumb,scrollbarbutton {   
+   -moz-appearance: none !important;   
+   background-color: rgb(0,0,255) !important;   
+}   
+/* 鼠标悬停时按钮颜色 */  
+  
+thumb:hover,scrollbarbutton:hover {   
+   -moz-appearance: none !important;   
+   background-color: rgb(255,0,0) !important;   
+}   
+/* 隐藏上下箭头 */  
+scrollbarbutton {   
+   display: none !important;   
+}   
+/* 纵向滚动条宽度 */  
+scrollbar[orient="vertical"] {   
+  min-width: 15px !important;   
+}   
+}  
